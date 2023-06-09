@@ -1,0 +1,17 @@
+{
+  "name": "30-days-coding",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Aryan Singh",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/tailwind.css -o ./public/css/main.css --watch",
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/css/main.css --minify"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
